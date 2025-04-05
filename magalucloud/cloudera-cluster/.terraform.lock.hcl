@@ -1,8 +1,9 @@
-# This file is maintained automatically by "tofu init".
+# This file is maintained automatically by "terraform init".
 # Manual edits may be lost in future updates.
 
 provider "registry.terraform.io/magalucloud/mgc" {
-  version = "0.33.0"
+  version     = "0.33.0"
+  constraints = "0.33.0"
   hashes = [
     "h1:ndpGwz0JmMCOItSkxUK9lmE0g39WIFHwTY4HpVZFGMk=",
     "zh:12971b312a622e8d37fbfcaa00f72ac53ad71cee3c78ce442a517b3f3c578920",
